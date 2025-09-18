@@ -6,11 +6,11 @@ An end-to-end data analysis project on Walmart sales data, leveraging Python for
 
 Walmart is one of the largest retail chains, and analyzing its sales data can reveal valuable business insights. This project focuses on understanding sales patterns, customer behavior, and revenue drivers by performing data cleaning, SQL-based analysis, and visualization. The goal is to answer key business questions such as:
 
-Which product categories contribute most to revenue?
+* Which product categories contribute most to revenue?
 
-How do sales vary across branches, cities, and payment methods?
+* How do sales vary across branches, cities, and payment methods?
 
-What trends exist in customer purchasing behavior over time?
+* What trends exist in customer purchasing behavior over time?
 
 ## Project Overview
 
