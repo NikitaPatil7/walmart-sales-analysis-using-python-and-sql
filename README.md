@@ -31,83 +31,73 @@ The aim is to demonstrate strong data analysis, SQL, and visualization skills by
 
 1. Raw Data
 
-Sourced Walmart sales dataset from Kaggle.
+  Sourced Walmart sales dataset from Kaggle.
 
 2. Data Cleaning (Python)
 
-Checked dataset shape, info, and statistical summary.
-
-Removed duplicates and handled missing values.
-
-Converted unit_price column (removed $ sign, converted to float).
-
-Created new column total = unit_price * quantity.
-
-Exported the cleaned dataset to CSV.
+  Checked dataset shape, info, and statistical summary.
+  
+  Removed duplicates and handled missing values.
+  
+  Converted unit_price column (removed $ sign, converted to float).
+  
+  Created new column total = unit_price * quantity.
+  
+  Exported the cleaned dataset to CSV.
 
 3. Database Integration
 
-Established PostgreSQL connection.
-
-Loaded cleaned dataset into the database for structured querying.
+  Established PostgreSQL connection.
+  
+  Loaded cleaned dataset into the database for structured querying.
 
 4. SQL Queries
 
-Revenue and profit analysis.
-
-Best-selling products and categories.
-
-Sales performance by city, branch, and payment type.
-
-Customer trends and purchase behavior.
+  Revenue and profit analysis.
+  
+  Best-selling products and categories.
+  
+  Sales performance by city, branch, and payment type.
+  
+  Customer trends and purchase behavior.
 
 ## Key Business Insights
 
-Identified top-performing product categories driving revenue.
-
-Detected seasonal trends in customer purchases.
-
-Highlighted cities/branches with highest sales and profits.
-
-Analyzed payment method preferences across customers.
-
- ## Repository Structure
-├── data/
-│   ├── Walmart_raw_data.csv      # Original dataset (Kaggle)
-│   ├── Walmart_clean_data.csv    # Cleaned dataset after preprocessing
-├── notebooks/
-│   ├── Walmart_EDA.ipynb         # Jupyter notebook with EDA & preprocessing
-├── sql/
-│   ├── Walmart_queries.sql       # SQL queries for business insights
-├── README.md                     # Project documentation
+ Identified top-performing product categories driving revenue.
+ 
+ Detected seasonal trends in customer purchases.
+ 
+ Highlighted cities/branches with highest sales and profits.
+ 
+ Analyzed payment method preferences across customers.
 
 ## How to Run the Project
 
-1. Clone the repository:
-
-git clone https://github.com/your-username/walmart-sales-analysis.git
-cd walmart-sales-analysis
-
-2. Run the Jupyter notebook for EDA:
-
-jupyter notebook notebooks/Walmart_EDA.ipynb
-
-3. Load cleaned CSV into PostgreSQL and execute queries from sql/Walmart_queries.sql.
+ 1. Clone the repository:
+ 
+   git clone https://github.com/your-username/walmart-sales-analysis.git
+   cd walmart-sales-analysis
+ 
+ 2. Run the Jupyter notebook for EDA:
+ 
+   jupyter notebook notebooks/Walmart_EDA.ipynb
+ 
+ 3. Load cleaned CSV into PostgreSQL and execute queries from sql/Walmart_queries.sql.
 
 ## Skills Demonstrated
 
-Data cleaning & preprocessing (Python, Pandas)
-
-SQL query writing & optimization (PostgreSQL)
-
-Data visualization & dashboarding (Excel)
-
-End-to-end problem solving for business analytics
+  Data cleaning & preprocessing (Python, Pandas)
+  
+  SQL query writing & optimization (PostgreSQL)
+  
+  Data visualization & dashboarding (Excel)
+  
+  End-to-end problem solving for business analytics
 
 ## Future Enhancements
 
-Automate ETL pipeline using Airflow or Prefect.
-
-Build an interactive dashboard with Power BI or Tableau.
-
-Deploy the solution as a web-based analytics tool.
+  Automate ETL pipeline using Airflow or Prefect.
+  
+  Build an interactive dashboard with Power BI or Tableau.
+  
+  Deploy the solution as a web-based analytics tool.
