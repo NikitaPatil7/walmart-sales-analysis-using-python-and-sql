@@ -31,45 +31,45 @@ The aim is to demonstrate strong data analysis, SQL, and visualization skills by
 
 1. Raw Data
 
-  Sourced Walmart sales dataset from Kaggle.
+  * Sourced Walmart sales dataset from Kaggle.
 
 2. Data Cleaning (Python)
 
-  Checked dataset shape, info, and statistical summary.
+  * Checked dataset shape, info, and statistical summary.
   
-  Removed duplicates and handled missing values.
+  * Removed duplicates and handled missing values.
   
-  Converted unit_price column (removed $ sign, converted to float).
+  * Converted unit_price column (removed $ sign, converted to float).
   
-  Created new column total = unit_price * quantity.
+  * Created new column total = unit_price * quantity.
   
-  Exported the cleaned dataset to CSV.
+  * Exported the cleaned dataset to CSV.
 
 3. Database Integration
 
-  Established PostgreSQL connection.
+  * Established PostgreSQL connection.
   
-  Loaded cleaned dataset into the database for structured querying.
+  * Loaded cleaned dataset into the database for structured querying.
 
 4. SQL Queries
 
-  Revenue and profit analysis.
+  * Revenue and profit analysis.
   
-  Best-selling products and categories.
+  * Best-selling products and categories.
   
-  Sales performance by city, branch, and payment type.
+  * Sales performance by city, branch, and payment type.
   
-  Customer trends and purchase behavior.
+  * Customer trends and purchase behavior.
 
 ## Key Business Insights
 
- Identified top-performing product categories driving revenue.
+ * Identified top-performing product categories driving revenue.
  
- Detected seasonal trends in customer purchases.
+ * Detected seasonal trends in customer purchases.
  
- Highlighted cities/branches with highest sales and profits.
+ * Highlighted cities/branches with highest sales and profits.
  
- Analyzed payment method preferences across customers.
+ * Analyzed payment method preferences across customers.
 
 ## How to Run the Project
 
@@ -86,18 +86,18 @@ The aim is to demonstrate strong data analysis, SQL, and visualization skills by
 
 ## Skills Demonstrated
 
-  Data cleaning & preprocessing (Python, Pandas)
+  * Data cleaning & preprocessing (Python, Pandas)
   
-  SQL query writing & optimization (PostgreSQL)
+  * SQL query writing & optimization (PostgreSQL)
   
-  Data visualization & dashboarding (Excel)
+  * Data visualization & dashboarding (Excel)
   
-  End-to-end problem solving for business analytics
+  * End-to-end problem solving for business analytics
 
 ## Future Enhancements
 
-  Automate ETL pipeline using Airflow or Prefect.
+  * Automate ETL pipeline using Airflow or Prefect.
   
-  Build an interactive dashboard with Power BI or Tableau.
+  * Build an interactive dashboard with Power BI or Tableau.
   
-  Deploy the solution as a web-based analytics tool.
+  * Deploy the solution as a web-based analytics tool.
