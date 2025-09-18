@@ -53,16 +53,6 @@ The aim is to demonstrate strong data analysis, SQL, and visualization skills by
  * Highlighted cities/branches with highest sales and profits.
  * Analyzed payment method preferences across customers.
 
-## How to Run the Project
-
- 1. Clone the repository:
-   git clone https://github.com/your-username/walmart-sales-analysis.git
-   cd walmart-sales-analysis
- 
- 2. Run the Jupyter notebook for EDA:
-   jupyter notebook notebooks/Walmart_EDA.ipynb
- 
- 3. Load cleaned CSV into PostgreSQL and execute queries from sql/Walmart_queries.sql.
 
 ## Skills Demonstrated
   * Data cleaning & preprocessing (Python, Pandas)
